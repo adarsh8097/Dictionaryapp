@@ -1,0 +1,214 @@
+body{
+    font-family: Verdana,Arial, Helvetica,sans-serif; 
+    justify-content: center;
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+   
+}
+
+main h1{
+    justify-content: center;
+   /* padding-right: 250px;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+section h3{
+    color: white;
+    padding: 20px;
+}
+
+label{
+    color: white;
+}
+
+.book-img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+   /* background-color: pink;*/
+}
+
+/*.book-img:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}*/
+
+
+.first-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 160px;
+
+}
+/* a{
+    text-decoration: none;
+    color: white;
+ } */
+
+#first-button{
+    width: 130px;
+    height: 50px;
+    margin-left: 200px;
+    background-color: gray;
+    color: Black;
+    font-size: 25px ;
+    font-weight: bold;
+}
+
+input{
+    width: 450px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(202, 207, 212);
+    color: blue;
+    font-weight: bold;
+    padding-left: 20px;
+
+    
+}
+
+.text-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+label{
+    font-family: serif;
+    font-size: 50px;
+    font-weight: 80px;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 15px;
+
+}
+
+.text-content #search{
+  background-size: cover;
+  width:50px;
+  height: 30px;
+  border-radius: 100px;
+  font-size: 24px;
+ 
+    
+}
+
+
+
+.card,#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    /*width: 18rem;*/
+}
+
+.container h1{
+    font-size: 30px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    font-size: medium;
+}
+
+
+
+#second-button {
+   
+    width: 180px;
+    height: 60px;
+    font-size: 30px;
+    margin-left : 200px;
+    background-color: gray;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+   justify-content: center;
+   padding-bottom: 50px;
+   margin-top: 10px;
+
+   
+   
+
+}
+
+.details {
+    padding: 2px 2px;
+    color: black;
+    text-shadow: 1px 1px #bbb;
+    text-align: center;
+  }
+  #card-container
+  {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+   /* width: 60cap;*/
+    }
+    
+
+  .card{
+    height: 500px;
+    width: 400px;
+    transition: 2s;
+    box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.75);
+   text-align: center;
+   padding: 2px 2px;
+  color: black;
+  text-shadow: 1px 1px #bbb;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+   padding-top: 10px 10px;
+     flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+   padding-bottom: 20px;
+
+
+}
+
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color:blue;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
