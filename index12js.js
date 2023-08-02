@@ -51,6 +51,15 @@ function homePage() {
           localStorage.setItem("cards", JSON.stringify(parsedCards));// stringify object to convert simply text
           cardContainer.removeChild(newDiv);
         });
+
+           // Delete all item:
+        let deleteAll = document.getElementById('btn1');
+        deleteAll.addEventListener("click", function(){
+          alert("are you sure ?.You want to delete all item !")
+          parsedCards.splice(0);
+           cardContainer.remove(parsedCards);
+           localStorage.clear();
+        });
       // using appendchild use to remove node
         details.appendChild(heading);
         details.appendChild(paragraph);
